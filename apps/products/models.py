@@ -120,6 +120,7 @@ class Product(models.Model):
 # ============================================================
 # PRODUCT IMAGE MODEL
 # ============================================================
+# Product and Category Models for NexaMart
 # Why: A product can have multiple images
 # Example: Front view, back view, side view
 class ProductImage(models.Model):

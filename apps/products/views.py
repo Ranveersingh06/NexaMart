@@ -17,6 +17,7 @@ from .filters import ProductFilter
 # ============================================================
 # CUSTOM PERMISSION
 # ============================================================
+# Product CRUD API with Search and Filter Support
 # Why: Only sellers and admins can create/update/delete products
 # Customers can only view products
 class IsSellerOrAdmin(permissions.BasePermission):

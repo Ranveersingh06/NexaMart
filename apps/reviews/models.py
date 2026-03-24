@@ -8,6 +8,7 @@ User = get_user_model()
 # ============================================================
 # REVIEW MODEL
 # ============================================================
+# Reviews and Ratings System for Verified Purchases
 class Review(models.Model):
     # Who wrote the review
     customer = models.ForeignKey(

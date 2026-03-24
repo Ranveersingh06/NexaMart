@@ -5,6 +5,7 @@ from django.conf import settings
 # ============================================================
 # REDIS CONNECTION
 # ============================================================
+# Redis-powered Cart System for NexaMart
 # Why: Connect to Redis to store cart data
 redis_client = redis.StrictRedis(
     host='localhost',

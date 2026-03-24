@@ -6,6 +6,7 @@ from django.conf import settings
 # ============================================================
 # SEND ORDER CONFIRMATION EMAIL TASK
 # ============================================================
+# Celery Background Tasks for Email Notifications
 # Why: Sends order confirmation email in background
 # so customer doesn't have to wait
 @shared_task

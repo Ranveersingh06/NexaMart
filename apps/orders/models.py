@@ -7,6 +7,7 @@ User = get_user_model()
 # ============================================================
 # ORDER MODEL
 # ============================================================
+# Order and OrderItem Models with Tracking Timeline
 class Order(models.Model):
 
     STATUS_CHOICES = (

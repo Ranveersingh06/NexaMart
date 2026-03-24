@@ -4,6 +4,7 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, Permis
 # ============================================================
 # CUSTOM USER MANAGER
 # ============================================================
+# Custom User Model with Role-Based Authentication
 # Why: We need a custom manager because we use email
 # as the login field instead of username
 class CustomUserManager(BaseUserManager):

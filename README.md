@@ -142,3 +142,5 @@ docker-compose up --build
 - Only customers with a delivered order can review that product
 - JWT access tokens expire after 1 day, refresh tokens after 7 days
 - Celery handles email notifications asynchronously
+
+Initial setup completed.

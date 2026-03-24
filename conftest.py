@@ -8,6 +8,7 @@ User = get_user_model()
 # ============================================================
 # WHY: conftest.py provides reusable fixtures for all tests
 # Fixtures are like setup functions that run before each test
+# Pytest Configuration and Fixtures for NexaMart
 # ============================================================
 
 @pytest.fixture

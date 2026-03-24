@@ -7,6 +7,7 @@ User = get_user_model()
 # ============================================================
 # PAYMENT MODEL
 # ============================================================
+# Payment Model with Transaction ID Generation
 class Payment(models.Model):
 
     PAYMENT_METHOD_CHOICES = (

@@ -6,8 +6,9 @@ import environ
 # ============================================================
 # BASE DIRECTORY
 # ============================================================
+# NexaMart Settings - Configured for Production
 # Build paths inside the project like this: BASE_DIR / 'subdir'
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent 
 
 # ============================================================
 # ENVIRONMENT VARIABLES

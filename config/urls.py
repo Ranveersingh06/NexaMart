@@ -11,6 +11,7 @@ from drf_yasg import openapi
 # ============================================================
 # SWAGGER CONFIGURATION
 # ============================================================
+# NexaMart API URLs with Swagger Documentation
 schema_view = get_schema_view(
     openapi.Info(
         title="NexaMart API",
