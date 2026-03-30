@@ -144,3 +144,4 @@ docker-compose up --build
 - Celery handles email notifications asynchronously
 
 Initial setup completed.
+Project is actively maintained and updated regularly.
