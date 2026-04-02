@@ -24,3 +24,16 @@ staticfiles/
 # OS files
 .DS_Store
 Thumbs.db
+
+
+# Pytest cache
+.pytest_cache/
+pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Logs
+*.log
+logs/
