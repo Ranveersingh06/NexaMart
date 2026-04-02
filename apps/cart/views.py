@@ -3,8 +3,11 @@ from rest_framework.response import Response
 from rest_framework import status, permissions
 from apps.products.models import Product
 from .cart import Cart
+from rest_framework.views import APIView
 
-
+import logging
+logger = logging.getLogger(__name__)
+# Views 
 class CartView(APIView):
     permission_classes = [permissions.IsAuthenticated]
 
